@@ -1,0 +1,181 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(79, 9, 241);
+  color: #fff;
+  padding-top: 60px;
+  
+  line-height: 2.7rem;
+}
+#title-profession,
+#mc-clasky {
+  color: #fff;
+}
+
+.content-wrapper {
+  margin: auto;
+  border: 4px white solid;
+  border-radius: 10px;
+  max-width: 1300px;
+  width: 80%;
+  text-align: center;
+}
+ul li {
+  list-style-type: none;
+  border: solid #fff 4px;
+}
+#technical-skills {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+}
+.increase-size {
+  font-size: 70px;
+}
+#gilbert-webdeveloper {
+  font-size: 30px;
+}
+#contact-info {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 30px;
+}
+#contact-me {
+  margin-right: 20px;
+}
+
+/* media queries  for smartphone max-width:500px*/
+@media only screen and (max-width: 500px) {
+  #my-title {
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    font-weight: 900;
+    padding-left: 15px;
+  }
+  #mc-clasky {
+    display: ;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 7px;
+    display: flex;
+    justify-content: center;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    line-height: 3.7rem;
+    border-radius: 7px;
+
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+  .content-wrapper {
+    border: none;
+  }
+  .increase-size {
+    font-size: 30px;
+  }
+  #intro-email {
+    display: none;
+  }
+  #email.infor {
+    display: flex;
+    flex-direction: column;
+  }
+  #technical-skills {
+    flex-direction: column;
+    align-items: start;
+    margin: 0;
+  }
+}
+
+/* media query for ipads * max-width 768p*/
+@media only screen and (max-width: 768px) and (min-width: 501px) {
+  body {
+    font-size: 10px;
+  }
+  .content-wrapper {
+    border: none;
+  }
+  #technical-skills {
+    margin-left: ;
+
+    align-items: center;
+
+    margin-left: 20px;
+  }
+  ul li {
+    margin-left: 30px;
+    display: block;
+  }
+  .increase-size {
+    font-size: 30px;
+  }
+}
+/* media query for ipad pro laptops  max-width 1024px*/
+@media only screen and (max-width: 1024px) and (min-width: 769px)
+
+body {
+  font-size: 10px;
+  margin:0;
+  padding-top:0;
+  display: block;
+  line-height: 4.5rem;
+  display:block;
+  
+}
+#title-profession{
+  font-size: 20px;
+} 
+.content-wrapper {
+  border: none;
+}
+#technical-skills {
+  margin-left: ;
+
+  align-items: center;
+
+  margin-left: 20px;
+}
+ul li {
+  margin-left: 30px;
+  display: block;
+}
+.increase-size {
+  font-size: 50px;
+}
+
+#intro-email {
+  display: inline-block;
+  margin-right: -10px;
+}
+#email.infor {
+  display: inline-block;
+}
+#technical-skills {
+  border: none;
+}
+
+#gilbert-webdeveloper {
+  line-height: 3.7rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+.increase-size{
+  font-size: x-large;
+}
+ul li{
+  border: none;
+}
+#content-wrapper{
+  margin: none;
+}
+
+}
